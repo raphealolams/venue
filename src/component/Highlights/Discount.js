@@ -25,7 +25,8 @@ class Discount extends Component {
         return (
             <div className="center_wrapper">
                 <div className="discount_wrapper">
-                    <Fade onReveal={() => this.percentage()}>
+                    <Fade 
+                        onReveal={() => this.percentage()}>
                         <div className="discount_percentage">
                             <span>{this.state.discountStart}%</span>
 
@@ -40,7 +41,7 @@ class Discount extends Component {
                                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                             </p>
                             <div>
-                                Button
+                                
                             </div>
                         </div>
                     </Slide>

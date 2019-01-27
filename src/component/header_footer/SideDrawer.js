@@ -11,23 +11,28 @@ const SideDrawer = (props) => {
             
 
             <List component="nav">
-                <ListItem button onClick={() => console.log("event starts")}>
+                <ListItem button 
+                    onClick={() => console.log("event starts")}>
                     Event Starts In
                 </ListItem>
 
-                <ListItem button onClick={() => console.log("venue info")}>
+                <ListItem button 
+                    onClick={() => console.log("venue info")}>
                     Venue Info
                 </ListItem>
 
-                <ListItem button onClick={() => console.log("HighLights")}>
+                <ListItem button 
+                    onClick={() => console.log("HighLights")}>
                     HighLights
                 </ListItem>
 
-                <ListItem button onClick={() => console.log("pricing")}>
+                <ListItem button 
+                    onClick={() => console.log("pricing")}>
                     Pricing
                 </ListItem> 
 
-                <ListItem button onClick={() => console.log("location")}>
+                <ListItem button 
+                    onClick={() => console.log("location")}>
                     Location
                 </ListItem> 
             </List>

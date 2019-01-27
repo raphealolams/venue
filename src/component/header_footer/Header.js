@@ -46,11 +46,14 @@ class Header extends Component {
                     <div className="header_logo_title">Music Event</div>
                 </div>
 
-                <IconButton aria-label="Menu" color="inherit" onClick={() => this.toggleDrawer(true)}>
+                <IconButton aria-label="Menu" color="inherit" 
+                    onClick={() => this.toggleDrawer(true)}>
                     <MenuIcon/>
                 </IconButton>
 
-                <SideDrawer open={this.state.drawerOpen} onClose={(value) => this.toggleDrawer(value )}/>
+                <SideDrawer 
+                    open={this.state.drawerOpen} 
+                    onClose={(value) => this.toggleDrawer(value )}/>
             </ToolBar>
            </AppBar>
         );
