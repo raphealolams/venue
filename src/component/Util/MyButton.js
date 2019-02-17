@@ -5,9 +5,18 @@ import TicketIcon from '../../resources/images/icons/ticket.png';
 
 const MyButton = (props) => {
     return (
-        <Button>
-            <img className="iconImage" alt="icone_button"
-                src={TicketIcon}/>
+        <Button 
+            href={props.link}
+            variant="contained"
+            size="small"
+            style={{
+                background: props.background,
+                color: props.color
+            }}>
+            <img className="iconImage" alt="icon_button"
+                src={TicketIcon}
+            />
+            {props.text}
         </Button>
     );
 };
